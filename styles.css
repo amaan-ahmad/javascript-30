@@ -1,0 +1,31 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+h1 {
+  text-align: center;
+  margin: auto;
+  padding: 0.4em;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #185adb;
+  color: #ffc947;
+}
+a,
+a:active,
+a:visited {
+  color: #ffc947;
+  text-decoration: none;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.projects-list {
+  display: flex;
+  margin: 2em auto;
+  flex: 1;
+  align-items: center;
+  flex-direction: column;
+}
