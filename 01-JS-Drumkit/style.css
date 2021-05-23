@@ -41,8 +41,14 @@ body {
   font-size: 1.25rem;
   cursor: grab;
   border-radius: 6px;
+  transition: all 0.08s;
 }
 
 .key span {
   color: #ffc947;
+}
+
+.active {
+  border: 3px solid #ffc947;
+  transform: scale(1.1);
 }
